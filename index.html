@@ -1,30 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link type="text/css" rel="stylesheet" href="./assets/styles.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="./assets/styles.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
 
 </head>
+
 <body>
-   
-    <div>
-        <label for="searchInput">Search Player:</label>
-        <input type="text" id="searchInput">
-        <button id="searchButton">Search</button>
-    </div>
-    <div id="container">
-        <!-- This is where the fetched player data will be displayed -->
-    </div>
+    <nav>
+  
+            <img class="logo" src="./assets/GOZ_Logo.png" alt="Logo">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Teams</a></li>
+                <li><a href="badges.html">NFL</a></li>
+                <li><a href="collapsible.html">NBA</a></li>
+            </ul>
+       
+    </nav>
+
+    <section class="container">
+        <h1 class="h1_title">Search for a player to show their stats</h1>
+        <div>
+            <label for="searchInput">Search Player:</label>
+            <input type="text" id="searchInput">
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="container">
+            <!-- This is where the fetched player data will be displayed -->
+        </div>
+        <div class="col s12 m7">
+            <h2 class="header">Player</h2>
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="https://lorempixel.com/100/190/nature/6" alt="player image">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>Player stats</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">link to team</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
 
 
-
-<script src="./assets/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
+
 </html>
