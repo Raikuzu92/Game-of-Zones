@@ -13,33 +13,49 @@
 </head>
 
 <body>
-    <nav>
-  
-            <img class="logo" src="./assets/GOZ_Logo.png" alt="Logo">
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Teams</a></li>
-                <li><a href="badges.html">NFL</a></li>
-                <li><a href="collapsible.html">NBA</a></li>
-            </ul>
-       
-    </nav>
-  
-  <div>
-        <label for="searchInput">Search Player:</label>
-        <input type="text" id="searchInput">
-        <button id="searchButton">Search</button>
-    </div>
-    <div id="container">
-        <!-- This is where the fetched player data will be displayed -->
-    </div>
+    <nav class="nav-title">
+        <img class="logo" src="./assets/GOZ_Logo.png" alt="Logo">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="https://www.nfl.com/">NFL</a></li>
+            <li><a href="https://www.sportingnews.com/ca/nba?gr=www">NBA</a></li>
+            <li><a href="https://www.nba.com/teams">Teams</a></li>
+        </ul>
 
+    </nav>
+    <header>Team Information</header>
+    <div class="col s12 m7">
+            <div class="search-bar">
+                <label class="search-team" for="searchInput">Search Team:</label>
+                <input type="text" id="searchInput">
+                <button id="searchButton">Search</button>
+            </div>
+            <div id="container">
+                    <!-- This is where the fetched player data will be displayed -->
+            </div>
+            <!-- <div class="card-stacked">
+                <div class="card-content">
+                    <p>team/player info</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">Link to player/team</a>
+                </div>
+            </div> -->
+    </div>
     <div class="container">
-        <h1>Basketball Live Matches</h1>
+        <h5>Basketball Live Matches</h5>
         <div class="matches" id="matches-container">
             <!-- Matches will be dynamically added here -->
         </div>
     </div>
 
+    <footer>
+        <p>
+            &copy;The Impostors Club 2024
+            <img class="TIC-logo" src="./assets/TIC-Logo.png" alt="Impostors Logo">
+        </p>
+
+
+    </footer>
 
 
 
@@ -48,7 +64,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./assets/script.js"></script>
-  <script src="./assets/matchesScript.js"></script>  
+    <script src="./assets/matchesScript.js"></script>
 </body>
 
 </html>
