@@ -11,4 +11,4 @@ In search box input any team to get up to date scores and stats.
 ## Credits
 Rawnaq Kabairzad, Robert Green, Luis Lima, and David Barren
 ## Licence
-Please refer to license in the repo.
+Please refer to license in the repo. 2024 Imposters
