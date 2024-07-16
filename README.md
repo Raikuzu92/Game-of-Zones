@@ -1,4 +1,14 @@
 # Game-of-Zones
-## The Game of Zones app is a good app for keeping up with sports data and team scores. 
-## This app tracks live game stats so you can keep up with games on the go!
-## In order to use the app you will need an api key from balldontlie.com and rapidapi.com
+
+## Description
+A sports tracking app thats gives you up to date game scores in real time and stats. 
+## Installation
+N/A
+## Usage
+In search box input any team to get up to date scores and stats.
+## Preview 
+![preview of our Game of Zones app page.](file:///C:/Users/dvd_b/bootcamp/Projects/Game-of-Zones/index.html)
+## Credits
+Rawnaq Kabairzad, Robert Green, Luis Lima, and David Barren
+## Licence
+Please refer to license in the repo. 2024 Imposters
