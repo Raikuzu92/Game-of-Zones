@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link type="text/css" rel="stylesheet" href="./assets/styles.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="./assets/styles.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
 
 </head>
+
 <body>
-   
-    <div>
+    <nav>
+  
+            <img class="logo" src="./assets/GOZ_Logo.png" alt="Logo">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Teams</a></li>
+                <li><a href="badges.html">NFL</a></li>
+                <li><a href="collapsible.html">NBA</a></li>
+            </ul>
+       
+    </nav>
+  
+  <div>
         <label for="searchInput">Search Player:</label>
         <input type="text" id="searchInput">
         <button id="searchButton">Search</button>
@@ -18,6 +32,7 @@
     <div id="container">
         <!-- This is where the fetched player data will be displayed -->
     </div>
+
     <div class="container">
         <h1>Basketball Live Matches</h1>
         <div class="matches" id="matches-container">
@@ -26,7 +41,14 @@
     </div>
 
 
-<script src="./assets/script.js"></script>
-<script src="./assets/matchesScript.js"></script>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/script.js"></script>
+  <script src="./assets/matchesScript.js"></script>  
 </body>
+
 </html>
