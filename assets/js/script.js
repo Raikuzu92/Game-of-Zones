@@ -90,3 +90,12 @@ searchInput.addEventListener('keydown', function(event) {
         getData();
     }
 });
+
+const mySound = document.getElementById('myAudio');
+
+// Play the sound
+mySound.play(); 
+
+// Other controls
+mySound.pause();  // Pause the sound
+mySound.volume = 0.5;  // Set volume (0 to 1)
